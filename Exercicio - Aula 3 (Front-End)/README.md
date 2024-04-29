@@ -11,6 +11,6 @@ Essa atividade consiste em recriar um card "LinkTree" com HTML e CSS, seguindo o
 - Professor Responsável: Gustavo Manca
 
 <div style="display:flex; justify-content:space-evenly; margin-top: 70px;">
-    <img src="demo_tela-notebook.png" alt="Exemplo do Projeto no Notebook" style="max-width: 520px; height: auto;">
-    <img src="demo_tela-mobile.png" alt="Exemplo do Projeto no Mobile" style="max-width: 150px; height: auto;">
+    <img src="demo_tela-notebook.png" alt="Exemplo do Projeto no Notebook" style="max-width: auto; height: 400px;">
+    <img src="demo_tela-mobile.png" alt="Exemplo do Projeto no Mobile" style="max-width: auto; height: 400px; margin-left:150px">
 </div>
