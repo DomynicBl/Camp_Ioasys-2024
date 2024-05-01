@@ -1,0 +1,139 @@
+html{
+    height: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(144deg, rgba(8,8,57,1) 0%, rgba(0,0,0,1) 50%, rgba(8,8,57,1) 100%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #161617;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  form {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    width: 315px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="number"] {
+    width: 315px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  form > button {
+    width: 333px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    margin-top: 30px;
+    width: 50%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2.5px;
+    margin-bottom: -5px;
+  }
+  
+  li {
+    width: 315px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  li button {
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #0056b3;
+  }
+
+  .Excluir{
+    background-color: #df0909;
+  }
+  
+  .Excluir:hover{
+    background-color: #ad1616;
+  }
+  
+  
+  @media only screen and (max-width: 480px) {
+    body {
+      width: 280px;
+    }
+
+    form{
+      width: 280px;
+    }
+
+    input{
+      width: 265px;
+    }
+
+    input[type="number"] {
+      width: 265px;
+    }
+
+    form > button{
+      width: 282px;
+    }
+
+    ul {
+      margin-top: 30px;
+    }
+    
+    li {
+      width: 265px;
+    }
+  }
+  
