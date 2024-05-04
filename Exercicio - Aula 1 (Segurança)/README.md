@@ -4,9 +4,9 @@
 
 Essa atividade consiste em analisar um código desenvolvido pelo professor, uma aplicação JavaScript para a manipulação de usuários no banco de dados, encontrar as vulnerabilidades de segurança e por fim corrigi-las. 
 
-- A pasta "Fork da Atividade (Original)" contém os arquivos originais do projeto (códigos vulneráveis);
+- A pasta `"Fork da Atividade (Original)"` contém os arquivos originais do projeto (códigos vulneráveis);
 - Os arquivos fora dessa pasta são os códigos com as correções e alterações necessárias;
-- O arquivo "Report.md" é o relatório das vulnerabilidades, explicando como elas comprometiam a aplicação e mostrando as correções que foram feitas.
+- O arquivo `"Report.md"` é o relatório das vulnerabilidades, explicando como elas comprometiam a aplicação e mostrando as correções que foram feitas.
 
 ## Detalhes
 
@@ -43,11 +43,11 @@ DB_PASS=sua_senha_do_banco_de_dados
 > OBS.: Para testar esse projeto, foi utilizado um serviço de SQL online, o [Elefant SQL](https://www.elephantsql.com/),caso queira utilizar essa mesma plataforma, crie sua conta e adicione as variáveis fornecidas pelo site como as variáveis de ambiente ao arquivo  `.env`
 
 ```
-DB_HOST = sua_url_do_elephantsql
-DB_PORT = 5432
-DB_NAME = nome_do_banco_de_dados
-DB_USER = seu_usuario_do_elephantsql
-DB_PASS = sua_senha_do_elephantsql
+DB_HOST=sua_url_do_elephantsql
+DB_PORT=5432
+DB_NAME=nome_do_banco_de_dados
+DB_USER=seu_usuario_do_elephantsql
+DB_PASS=sua_senha_do_elephantsql
 ```
 
 - **5º** No terminal, execute o comando `npx sequelize-cli db:migrate`, para aplicar as migrações do banco de dados;

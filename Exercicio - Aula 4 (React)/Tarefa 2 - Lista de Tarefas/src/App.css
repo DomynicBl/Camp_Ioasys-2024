@@ -387,6 +387,17 @@ h6 {
   }
 }
 
+@media only screen and (min-width: 1439px) {
+  .infos{
+    margin-right: 170px;
+  }
+
+  .todoItem{
+    width: 64.5%;
+
+  }
+}
+
 @media only screen and (max-width: 768px) {
   body {
     width: auto;

@@ -26,3 +26,15 @@
   - [x] 5 pts - Responsividade;
   - [x] 2,5 pts - Organização geral;
   - [  ] 2,5 pts - Extra (Design criativo, animações, hovers etc);
+
+<br><br>
+
+## Avaliação do Exercicio 5  
+
+### Muuuito bom mesmo, fez até mais coisa do que eu pedi. 
+
+Vou deixar algumas dicas de melhorias aqui no chat pra você mas acho que o objetivo da aula que era entender como escrever os testes você atingiu 100%. Agora é só acostumar com algumas boas práticas na hora de testar.
+
+- Buscar elementos na página com seletores mais objetivos e mais acertivos. Vi que você utilizou bastante "getByPlaceholderText" ou "getByText". Talvez buscar por ID ou até mesmo adicionar um testId seria uma boa. O testId eu gosto mais porque quando você está lidando com o JSX, ele te da uma ideia do que ja foi testado.
+
+- Usar userEvent ao invés de fireEvent para testar interações do usuário. Exemplo: Ao clicar em um botão, você utilizou o fireEvent. A diferença é que o fireEvent vai executar o evento de qualquer forma mesmo que o botão não esteja aparecendo na tela (ele é algo mais "máquina executando") e o userEvent vai fazer vários mini testes para simular 100% a interação de um usuário, então se o botão não estiver aparecendo na tela por algum css por exemplo, ele não vai clicar sacou?

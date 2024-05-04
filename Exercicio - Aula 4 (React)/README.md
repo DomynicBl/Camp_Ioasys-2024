@@ -3,7 +3,7 @@
 ## Resumo
 
 Essa atividade consiste em dois exercícios:
-- Tarefa 1 - Card Node.js: Recriar o "Exercício - Aula 3 (Front-End)" utilizando React.
+- Tarefa 1 - Card Node.js: Recriar o `"Exercício - Aula 3 (Front-End)"` utilizando React.
 - Tarefa 2 - Lista de Tarefas: Criar uma aplicação simples de lista de tarefas utilizando React, utilizando as features apresentadas ao longo das aulas.
 
 ## Detalhes
@@ -29,19 +29,19 @@ Essa atividade consiste em dois exercícios:
 - Bônus 1: Utilize um contexto para compartilhar as informações entre a lista de tarefas e o resumo.
 - Bônus 2: Coloque o resumo em outra página da sua aplicação.
 
-- Modelo do [Figma](https://www.figma.com/file/xtP8Qx4vLr5n1rQZQYt2zr/Exerc%C3%ADcio---Aula-4-(React)?type=design&mode=design&t=JEK8rWjGMccuCeqy-1)
+- Modelo do [Figma](https://www.figma.com/file/xtP8Qx4vLr5n1rQZQYt2zr/Exerc%C3%ADcio---Aula-4-(React)?type=design&mode=design&t=JEK8rWjGMccuCeqy-1).
 
 ## Instruções de utilização:
 
 ### Instruções Gerais
-- 1º Instale o gerenciador de pacotes ["NPM"](https://www.npmjs.com/).
-- 2º Após a instalação, verifique se a mesma foi concluída corretamente, executando o comando "npm -v".
+- 1º Instale o gerenciador de pacotes [NPM](https://www.npmjs.com/).
+- 2º Após a instalação, verifique se a mesma foi concluída corretamente, executando o comando `npm -v`.
 - 3º Abra o repositório na sua IDE preferida, entre nas pastas de cada projeto:
-  - "cd '.\Exercicio - Aula 4 (React)\Tarefa 1 - Card LinkTree\' "
-  - "cd '.\Exercicio - Aula 4 (React)\Tarefa 2 - Lista de Tarefas\' "
-- 4º Instale as dependências do projeto, com o comando "npm i".
-- 5º Inicie um servidor local React, com o comando "npm run dev".
-  - No terminal irá aparecer uma porta para acessar o servidor, clique nela segurando o botão "Ctrl" para acessar.
+  - `cd '.\Exercicio - Aula 4 (React)\Tarefa 1 - Card LinkTree\'`
+  - `cd '.\Exercicio - Aula 4 (React)\Tarefa 2 - Lista de Tarefas\'`
+- 4º Instale as dependências do projeto, com o comando `npm i`.
+- 5º Inicie um servidor local React, com o comando `npm run dev`.
+  - No terminal irá aparecer uma porta para acessar o servidor, clique nela segurando o botão `Ctrl` para acessar.
 
 ### Instruções Tarefa 1
 - Como o projeto é uma página estática, a única forma de interagir com a mesma é clicando nos botões das redes sociais, sendo redirecionado para cada rede.
@@ -53,9 +53,9 @@ Essa atividade consiste em dois exercícios:
 <br><br><br>
 
 ### Instruções Tarefa 2
-- Ao inserir um título e uma descrição para a sua tarefa, quando clicado no botão com o símbolo "+", essa tarefa é adicionada para a sua lista.
+- Ao inserir um título e uma descrição para a sua tarefa, quando clicado no botão com o símbolo `"+"`, essa tarefa é adicionada para a sua lista.
 - Ao clicar no nome de uma tarefa em sua lista, ela é marcada como concluída, e se clicada novamente, ela é marcada como não concluída.
-- Na sua lista de tarefas, ao clicar no botão com o símbolo "x", a tarefa é excluída da lista.
+- Na sua lista de tarefas, ao clicar no botão com o símbolo `"x"`, a tarefa é excluída da lista.
 - A barra de pesquisa no canto superior esquerdo, serve como uma ferramenta de busca, para caso o usuário queira procurar uma tarefa específica.
 - A caixa de seleção no canto superior esquerdo, serve como um filtro, para caso o usuário queira exibir todas as tarefas, apenas as tarefas completas ou apenas as incompletas.
 - No canto superior direito, existem dois contadores, que servem como um resumo para saber rapidamente quantas tarefas existem no total, e quantas tarefas já foram concluídas.
